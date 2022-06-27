@@ -1,6 +1,6 @@
 {
   "name": "@khadosh/shared-components-library",
-  "version": "0.0.2",
+  "version": "0.0.21",
   "description": "A react shared components library",
   "scripts": {
     "build": "rollup -c",
