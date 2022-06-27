@@ -10134,6 +10134,11 @@
   optionalDependencies:
     "@babel/code-frame" "^7.16.7"
 
+"rollup-plugin-peer-deps-external@^2.2.4":
+  "integrity" "sha512-AWdukIM1+k5JDdAqV/Cxd+nejvno2FVLVeZ74NKggm3Q5s9cbbcOgUPGdbxPi4BXu7xGaZ8HG12F+thImYu/0g=="
+  "resolved" "https://registry.npmjs.org/rollup-plugin-peer-deps-external/-/rollup-plugin-peer-deps-external-2.2.4.tgz"
+  "version" "2.2.4"
+
 "rollup-plugin-postcss@^4.0.2":
   "integrity" "sha512-05EaY6zvZdmvPUDi3uCcAQoESDcYnv8ogJJQRp6V5kZ6J6P7uAVJlrTZcaaA20wTH527YTnKfkAoPxWI/jPp4w=="
   "resolved" "https://registry.npmjs.org/rollup-plugin-postcss/-/rollup-plugin-postcss-4.0.2.tgz"
@@ -10160,7 +10165,7 @@
   dependencies:
     "estree-walker" "^0.6.1"
 
-"rollup@^1.20.0||^2.0.0", "rollup@^2.14.0", "rollup@^2.42.0", "rollup@^2.55", "rollup@^2.68.0", "rollup@^2.75.7":
+"rollup@*", "rollup@^1.20.0||^2.0.0", "rollup@^2.14.0", "rollup@^2.42.0", "rollup@^2.55", "rollup@^2.68.0", "rollup@^2.75.7":
   "integrity" "sha512-VSE1iy0eaAYNCxEXaleThdFXqZJ42qDBatAwrfnPlENEZ8erQ+0LYX4JXOLPceWfZpV1VtZwZ3dFCuOZiSyFtQ=="
   "resolved" "https://registry.npmjs.org/rollup/-/rollup-2.75.7.tgz"
   "version" "2.75.7"

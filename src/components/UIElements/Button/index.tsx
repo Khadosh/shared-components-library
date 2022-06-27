@@ -4,14 +4,15 @@ import './button.css';
 
 export interface IButton {
   label: string;
+  color: string;
 }
 
 const StyledButton = styled.button`
-  color: blue;
+  color: ${ (props)=> props.color || "blue" };
 `
 
-const Button = ({ label }: IButton) => {
-  return <StyledButton>{label}</StyledButton>
+const Button = ({ label, color }: IButton) => {
+  return <StyledButton color={color}>{label}</StyledButton>
 }
 
 export default Button;

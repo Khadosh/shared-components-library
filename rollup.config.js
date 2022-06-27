@@ -13,12 +13,10 @@ export default [
       {
         file: packageJson.main,
         format: "cjs",
-        sourcemap: true,
       },
       {
         file: packageJson.module,
         format: "esm",
-        sourcemap: true,
       },
     ],
     plugins: [
@@ -27,11 +25,12 @@ export default [
       typescript({ tsconfig: "./tsconfig.json" }),
       postcss(), 
     ],
+    external: ['styled-components']
   },
   {
     input: "dist/esm/types/index.d.ts",
     output: [{ file: "dist/index.d.ts", format: "esm" }],
     plugins: [dts()],
-    external: [/\.(css|less|scss)$/, 'styled-components'],
+    external: [/\.(css|less|scss)$/],
   },
 ];
