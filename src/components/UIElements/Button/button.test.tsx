@@ -5,6 +5,6 @@ import Button from '.';
 
 describe("Button", () => {
   it("should render", () => {
-    render(<Button label="hola" />);
+    render(<Button label="hola" color="red" />);
   })
 });

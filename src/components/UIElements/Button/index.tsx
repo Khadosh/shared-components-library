@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ClockIcon from '../../../resources/icons/clock.svg';
 import './button.css';
 
 export interface IButton {
@@ -12,7 +13,7 @@ const StyledButton = styled.button`
 `
 
 const Button = ({ label, color }: IButton) => {
-  return <StyledButton color={color}>{label}</StyledButton>
+  return <StyledButton color={color}>{label}<ClockIcon /></StyledButton>
 }
 
 export default Button;
